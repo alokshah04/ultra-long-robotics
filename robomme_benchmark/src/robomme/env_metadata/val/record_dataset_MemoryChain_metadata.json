@@ -1,0 +1,306 @@
+{
+  "env_id": "MemoryChain",
+  "record_count": 50,
+  "records": [
+    {
+      "task": "MemoryChain",
+      "episode": 0,
+      "seed": 200000,
+      "difficulty": "easy"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 1,
+      "seed": 200001,
+      "difficulty": "medium"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 2,
+      "seed": 200002,
+      "difficulty": "hard"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 3,
+      "seed": 200003,
+      "difficulty": "easy"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 4,
+      "seed": 200004,
+      "difficulty": "medium"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 5,
+      "seed": 200005,
+      "difficulty": "hard"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 6,
+      "seed": 200006,
+      "difficulty": "easy"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 7,
+      "seed": 200007,
+      "difficulty": "medium"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 8,
+      "seed": 200008,
+      "difficulty": "hard"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 9,
+      "seed": 200009,
+      "difficulty": "easy"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 10,
+      "seed": 200010,
+      "difficulty": "medium"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 11,
+      "seed": 200011,
+      "difficulty": "hard"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 12,
+      "seed": 200012,
+      "difficulty": "easy"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 13,
+      "seed": 200013,
+      "difficulty": "medium"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 14,
+      "seed": 200014,
+      "difficulty": "hard"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 15,
+      "seed": 200015,
+      "difficulty": "easy"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 16,
+      "seed": 200016,
+      "difficulty": "medium"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 17,
+      "seed": 200017,
+      "difficulty": "hard"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 18,
+      "seed": 200018,
+      "difficulty": "easy"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 19,
+      "seed": 200019,
+      "difficulty": "medium"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 20,
+      "seed": 200020,
+      "difficulty": "hard"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 21,
+      "seed": 200021,
+      "difficulty": "easy"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 22,
+      "seed": 200022,
+      "difficulty": "medium"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 23,
+      "seed": 200023,
+      "difficulty": "hard"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 24,
+      "seed": 200024,
+      "difficulty": "easy"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 25,
+      "seed": 200025,
+      "difficulty": "medium"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 26,
+      "seed": 200026,
+      "difficulty": "hard"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 27,
+      "seed": 200027,
+      "difficulty": "easy"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 28,
+      "seed": 200028,
+      "difficulty": "medium"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 29,
+      "seed": 200029,
+      "difficulty": "hard"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 30,
+      "seed": 200030,
+      "difficulty": "easy"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 31,
+      "seed": 200031,
+      "difficulty": "medium"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 32,
+      "seed": 200032,
+      "difficulty": "hard"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 33,
+      "seed": 200033,
+      "difficulty": "easy"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 34,
+      "seed": 200034,
+      "difficulty": "medium"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 35,
+      "seed": 200035,
+      "difficulty": "hard"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 36,
+      "seed": 200036,
+      "difficulty": "easy"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 37,
+      "seed": 200037,
+      "difficulty": "medium"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 38,
+      "seed": 200038,
+      "difficulty": "hard"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 39,
+      "seed": 200039,
+      "difficulty": "easy"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 40,
+      "seed": 200040,
+      "difficulty": "medium"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 41,
+      "seed": 200041,
+      "difficulty": "hard"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 42,
+      "seed": 200042,
+      "difficulty": "easy"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 43,
+      "seed": 200043,
+      "difficulty": "medium"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 44,
+      "seed": 200044,
+      "difficulty": "hard"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 45,
+      "seed": 200045,
+      "difficulty": "easy"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 46,
+      "seed": 200046,
+      "difficulty": "medium"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 47,
+      "seed": 200047,
+      "difficulty": "hard"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 48,
+      "seed": 200048,
+      "difficulty": "easy"
+    },
+    {
+      "task": "MemoryChain",
+      "episode": 49,
+      "seed": 200049,
+      "difficulty": "medium"
+    }
+  ]
+}

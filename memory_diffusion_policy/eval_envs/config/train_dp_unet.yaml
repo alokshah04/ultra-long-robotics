@@ -1,0 +1,16 @@
+defaults:
+  - base
+  - task: robomme
+  - model: dp_unet
+  - _self_
+
+name: train_dp_unet
+
+obs_horizon: 1
+action_exec_horizon: 8
+action_pred_horizon: 16
+dataloader:
+  batch_size: 128
+
+task_name: ${task.name}
+shape_meta: ${task.shape_meta}

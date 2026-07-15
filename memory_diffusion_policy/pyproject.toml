@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eval_envs"
+version = "0.1.0"
+description = "evaluation code combination for various env"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Haoran Zhang", email = "haoranwh@umich.edu" }]
+dependencies = [
+  "torch", "torchvision", "transformers", "omegaconf", "hydra-core",
+  "numpydantic==1.6.9", "gym==0.26.2", "shapely==2.1.1",
+  "scikit-image==0.25.2", "scipy==1.16.0", "pymunk==6.2.1",
+  "pygame==2.5.0", "zarr==2.18.3", "numcodecs==0.13.1", "matplotlib",
+  "websockets", "msgpack", "msgpack-numpy",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]

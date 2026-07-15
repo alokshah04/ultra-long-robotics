@@ -1,0 +1,41 @@
+_target_: eval_envs.model.dp_unet.DiffusionPolicyUnet
+
+device: ${device}
+
+shape_meta: ${shape_meta}
+
+obs_horizon: ${obs_horizon}
+action_exec_horizon: ${action_exec_horizon}
+action_pred_horizon: ${action_pred_horizon}
+diffusion_step_embed_dim: 128
+down_dims: [256, 512, 1024]
+kernel_size: 5
+n_groups: 8
+
+include_text: true
+text_embed_dim: 512
+text_proj_dim: 64
+text_mlp_hidden: 64
+
+obs_encoder:
+  name: resnet18
+  output_dim: 64
+  num_kp: 32
+
+noise_scheduler:
+  num_train_timesteps: 100
+  num_inference_steps: 100
+  beta_start: 0.0001
+  beta_end: 0.02
+  beta_schedule: squaredcos_cap_v2
+  variance_type: fixed_small
+  clip_sample: True
+  prediction_type: epsilon
+
+
+image_aug:
+  crop_ratio: 0.9
+  rotation_degrees: 5
+  brightness: 0.3
+  contrast: 0.4
+  saturation: 0.5

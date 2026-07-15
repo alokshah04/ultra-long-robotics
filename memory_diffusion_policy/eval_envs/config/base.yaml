@@ -1,0 +1,59 @@
+obs_horizon: 2  #observation horizon
+action_exec_horizon: 4  # execution horizon
+action_pred_horizon: 8 # prediction horizon
+seed: 42
+exp_id: null
+gpu_id: 0
+use_delta_action: False
+norm_type: minmax
+
+device: cuda:${gpu_id}
+overwrite: False
+
+dataloader:
+  batch_size: 128
+  num_workers: 4
+  shuffle: False
+  pin_memory: True
+  drop_last: True
+  persistent_workers: False
+
+
+optimizer:
+  lr: 1.0e-4
+  betas: [0.95, 0.999]
+  eps: 1.0e-8
+  weight_decay: 1.0e-6
+
+
+training:
+  debug: False
+  resume: False
+  resume_ckpt: null
+  lr_scheduler: 
+    _target_: diffusers.optimization.get_scheduler
+    name: cosine
+    num_warmup_steps: 500
+    num_training_steps: 1000000
+  gradient_accumulate_every: 1
+  use_ema: True
+  eval_every_n_steps: 5000 # 5000
+  log_every_n_steps: 1000
+  top_n_ckpt: 3
+  pretrain_ckpt: null
+  save_dir: runs
+
+ema:
+  update_after_step: 0
+  inv_gamma: 1.0
+  power: 0.75
+  min_decay: 0.0
+  decay: 0.9999
+
+testing:
+  load_ckpt: null
+  save_dir: evals
+
+wandb:
+  entity: sam_pt
+  project: "evaluation"

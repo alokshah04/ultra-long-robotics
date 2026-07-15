@@ -1,0 +1,25 @@
+name: robomme
+
+image_shape: &image_shape [6, 256, 256]  # left_shoulder + wrist camera concatenated
+
+shape_meta: &shape_meta
+  image:
+    shape: *image_shape
+    type: rgb
+  state:
+    shape: [8]
+  action:
+    shape: [8]
+
+dataset:
+  _target_: eval_envs.dataset.robomme_dataset.RoboMMEDataset
+  dataset_root: "/nfs/turbo/coe-chaijy-unreplicated/RoboMME/robomme_data_lerobot"
+  obs_horizon: ${obs_horizon}
+  action_exec_horizon: ${action_exec_horizon}
+  action_pred_horizon: ${action_pred_horizon}
+  stats_path: data/robomme
+  recompute_stats: false
+  use_delta_action: ${use_delta_action}
+  mask: null
+  norm_type: ${norm_type}
+  embed_text: true
